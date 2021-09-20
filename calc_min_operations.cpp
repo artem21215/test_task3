@@ -1,9 +1,6 @@
-//
-// Created by artem on 20.09.2021.
-//
-
 #include "calc_min_operations.h"
-int calc_min_operations(int n, vector<int> &len_fragments) {
+
+int calc_min_operations(const int n, const vector<int> &len_fragments) {
     int sum = 0;
     int need_connects = n - 1;
     for (int i = 0; i < n; ++i) {

@@ -1,8 +1,5 @@
-//
-// Created by artem on 20.09.2021.
-//
-
 #include "convert_string.h"
+
 vector<int> convert_to_int_array(string input) {
     replace(input.begin(), input.end(), ',', ' ');
 
